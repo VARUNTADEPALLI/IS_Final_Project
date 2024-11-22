@@ -60,6 +60,7 @@ Response Delivery: Formats and presents query results in the chat interface.
 # Project Structure
 
 app.py: Main application script.
+
 table_details.csv: Metadata file for SQL tables.
 
 # Key libraries used in the project:
