@@ -22,15 +22,15 @@ OpenAI API key.
 SQL Server with appropriate credentials.]
 
 # Setup Instructions
-1. Clone the Repository
+## Clone the Repository
    
    git clone <REPO_URL>
 
    cd <REPO_NAME>
 
-3. Install Dependencies
+## Install Dependencies
 
-4. Configure Environment Variables
+## Configure Environment Variables
 
 Set the following environment variables:
 
@@ -40,7 +40,7 @@ LANGCHAIN_TRACING_V2: Set to 'true'.
 
 LANGCHAIN_ENDPOINT: Set to https://api.smith.langchain.com.
 
-4. Database Configuration
+## Database Configuration
 
 Update the following database connection details in the code:
 
@@ -52,7 +52,7 @@ password: Replace <DATABASE_PASSWORD> with your SQL password.
 
 driver: Ensure ODBC Driver 17 for SQL Server is installed.
 
-5. Prepare Table Details
+## Prepare Table Details
 
 Create a table_details.csv file in the project directory with the following format:
 
@@ -104,11 +104,4 @@ Improve error handling for invalid queries.
 
 Enhance table relevance scoring for complex queries.
 
-# License
 
-This project is licensed under the MIT License.
-
-Contributing
-Feel free to submit issues and pull requests to enhance the application.
-
-Happy coding! 🎉
