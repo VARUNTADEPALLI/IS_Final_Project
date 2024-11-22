@@ -29,7 +29,6 @@ SQL Server with appropriate credentials.]
 
    cd <REPO_NAME>
 
-### Install Dependencies
 
 ### Configure Environment Variables
 
