@@ -22,6 +22,7 @@ OpenAI API key.
 SQL Server with appropriate credentials.]
 
 # Setup Instructions
+
 ### Clone the Repository
    
    git clone <REPO_URL>
