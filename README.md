@@ -40,13 +40,13 @@ driver: Ensure ODBC Driver 17 for SQL Server is installed.
 5. Prepare Table Details
 Create a table_details.csv file in the project directory with the following format:
 
-csv
-Copy code
 Table,Description
+
 table_name_1,Description of table_name_1
+
 table_name_2,Description of table_name_2
 
-Running the Application
+# Running the Application
 Start the application with the following command:
 
 streamlit run app.py
@@ -75,7 +75,7 @@ Add support for multiple database types.
 Improve error handling for invalid queries.
 Enhance table relevance scoring for complex queries.
 
-#License
+# License
 This project is licensed under the MIT License.
 
 Contributing
