@@ -15,16 +15,15 @@ from langchain.chains.openai_tools import create_extraction_chain_pydantic
 from operator import itemgetter
 import pandas as pd
 
-server = 'varun'
+server = <DATABASE_SERVER_NAME>
 database = 'loan_database'
 username = 'sa'
-password = 'Erenyeager2018!'
+password = <DATABASE_PASSWORD>
 driver = 'ODBC Driver 17 for SQL Server'
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = <YOUR_OWN_OPENAI_API_KEY>
 os.environ["LANGCHAIN_TRACING_V2"] = 'true'
 os.environ["LANGCHAIN_ENDPOINT"]="https://api.smith.langchain.com"
-os.environ["LANGCHAIN_API_KEY"] = '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'
 
 
 # Pick up only the tables info we need not all of them
