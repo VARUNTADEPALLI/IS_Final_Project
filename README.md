@@ -52,7 +52,7 @@ server: Replace <DATABASE_SERVER_NAME> with your SQL server name.
 
 database: Replace <DATABASE_NAME> with your SQL server database name.
 
-username: Replace sa with your SQL username.
+username: Replace <USERNAME> with your SQL username.
 
 password: Replace <DATABASE_PASSWORD> with your SQL password.
 
