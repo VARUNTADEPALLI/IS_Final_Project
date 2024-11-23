@@ -16,7 +16,7 @@ from operator import itemgetter
 import pandas as pd
 
 server = <DATABASE_SERVER_NAME>
-database = 'loan_database'
+database = <DATABASE_NAME>
 username = 'sa'
 password = <DATABASE_PASSWORD>
 driver = 'ODBC Driver 17 for SQL Server'
