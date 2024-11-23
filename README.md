@@ -100,7 +100,7 @@ SQLAlchemy: For connecting to the SQL database.
 
 OpenAI: For GPT-powered natural language processing.
 
-pandas: For processing table metadata.
+Pandas: For processing table metadata.
 
 # Future Improvements
 
