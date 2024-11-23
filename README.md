@@ -66,7 +66,7 @@ table_name_2,Description of table_name_2
 
 Start the application with the following command:
 
-streamlit run app.py
+streamlit run nlToSql.py
 
 # Application Flow
 
@@ -80,7 +80,7 @@ Response Delivery: Formats and presents query results in the chat interface.
 
 # Project Structure
 
-app.py: Main application script.
+nlToSql.py: Main application script.
 
 table_details.csv: Metadata file for SQL tables.
 
