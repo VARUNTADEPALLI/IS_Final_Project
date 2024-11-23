@@ -19,7 +19,7 @@ Python 3.8 or later.
 
 OpenAI API key.
 
-SQL Server with appropriate credentials.]
+SQL Server with appropriate credentials.
 
 # Setup Instructions
 
@@ -109,5 +109,3 @@ Add support for multiple database types.
 Improve error handling for invalid queries.
 
 Enhance table relevance scoring for complex queries.
-
-
