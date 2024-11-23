@@ -40,11 +40,17 @@ LANGCHAIN_TRACING_V2: Set to 'true'.
 
 LANGCHAIN_ENDPOINT: Set to https://api.smith.langchain.com.
 
+### Create Database
+
+Create a database in SQL server with the data you would like to use.
+
 ### Database Configuration
 
 Update the following database connection details in the code:
 
 server: Replace <DATABASE_SERVER_NAME> with your SQL server name.
+
+database: Replace <DATABASE_NAME> with your SQL server database name.
 
 username: Replace sa with your SQL username.
 
