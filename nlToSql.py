@@ -69,7 +69,7 @@ def get_chain():
     answer = ans_prompt | llm | StrOutputParser()
 
     chain = (
-        RunnablePassthrough.assign(tabble_name_to_use = table_chain) |
+        RunnablePassthrough.assign(table_name_to_use = table_chain) |
         RunnablePassthrough.assign(query=generate_query).assign(
             result = itemgetter("query") | run
         )
