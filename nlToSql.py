@@ -17,7 +17,7 @@ import pandas as pd
 
 server = <DATABASE_SERVER_NAME>
 database = <DATABASE_NAME>
-username = 'sa'
+username = <USER_NAME>
 password = <DATABASE_PASSWORD>
 driver = 'ODBC Driver 17 for SQL Server'
 
