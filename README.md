@@ -42,7 +42,14 @@ LANGCHAIN_ENDPOINT: Set to https://api.smith.langchain.com.
 
 ### Create Database
 
-Create a database in SQL server with the data you would like to use.
+Create a database in SQL server with the data you would like to use or use the loan_database.bak file provided. 
+
+To restore this database in your personal server:
+1. Go to SQL Server Management Studio
+2. Right click Databases on the left pane (Object Explorer)
+3. Click Restore Database
+4. Choose Device, click the ..., and add the .bak file
+5. Click OK and OK again
 
 ### Database Configuration
 
